@@ -19,9 +19,9 @@ Preprint: [https://arxiv.org/abs/2506.xxxxx](https://arxiv.org/abs/2506.xxxxx)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amingolnari/Demo-QiVC-Net/blob/main/QiVC-Net.ipynb)
 
 **Compatibility:**
-- TensorFlow: 2.17.0  
-- Keras: 3.4.1  
-- Python: ≥ 3.9
+- TensorFlow: 2.19.0  
+- Keras: 3.10.0  
+- Python: ≥ 3.12
 
 ---
 
