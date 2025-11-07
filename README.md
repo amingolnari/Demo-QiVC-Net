@@ -75,7 +75,3 @@ If you find this work useful, please cite our paper:
 }
 ```
 
-
---- 
-
-Let me know when you're ready for the next step (e.g., structuring the notebook, implementing QiVConv in code, or writing docstrings).
