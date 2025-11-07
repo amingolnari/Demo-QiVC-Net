@@ -16,7 +16,7 @@ Preprint: [https://arxiv.org/abs/2506.xxxxx](https://arxiv.org/abs/2506.xxxxx)
 **Link to the preprint version:** [Click here](https://arxiv.org/abs/2506.xxxxx)
 
 **Run this implementation on Google Colab (coming soon):**  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amingolnari/Demo-QiVC-Net/blob/main/QiVC_Net_Demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amingolnari/Demo-QiVC-Net/blob/main/QiVC-Net.ipynb)
 
 **Compatibility:**
 - TensorFlow: 2.17.0  
