@@ -26,7 +26,7 @@
 
 **QiVC-Net** introduces a novel **quantum-inspired variational convolution (QiVC)** framework that integrates principles from probabilistic inference, variational optimization, and quantum-inspired transformations into convolutional neural networks.  
 
-At its core is the **Quantum-inspired Rotated Ensemble (QiRE)** mechanism—a structured, differentiable, low-dimensional subspace rotation of convolutional weights that mimics unitary evolution in quantum systems. This enables **geometry-preserving uncertainty modeling** without introducing additional learnable parameters, leading to more expressive, stable, and uncertainty-aware representations.
+At its core is the **Quantum-inspired Rotated Ensemble (QiRE)** mechanism, a structured, differentiable, low-dimensional subspace rotation of convolutional weights that mimics unitary evolution in quantum systems. This enables **geometry-preserving uncertainty modeling** without introducing additional learnable parameters, leading to more expressive, stable, and uncertainty-aware representations.
 
 The architecture is instantiated for **phonocardiogram (PCG) signal classification**, a challenging domain marked by noise, inter-subject variability, and class imbalance. QiVC-Net further incorporates a **Reversal Fusion Residual (RFR) block** to model bidirectional temporal dynamics, enhancing robustness in real-world biomedical signal analysis.
 
