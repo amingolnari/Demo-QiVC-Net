@@ -42,7 +42,7 @@ QiVC-Net also features a **Reversal Fusion Residual (RFR)** block that captures 
    - Enables expressive uncertainty-aware representations while maintaining parameter efficiency.
 
 2. **Quantum-Inspired Rotated Ensemble (QiRE)**:  
-   - Injects structured stochasticity via unitary-inspired rotations in a learnable low-dimensional subspace (*k = 5*).
+   - Injects structured stochasticity via unitary-inspired rotations in a learnable low-dimensional subspace.
    - Preserves weight-space geometry and avoids the instability of isotropic Gaussian noise.
 
 3. **Uncertainty-Aware Dual-Path Architecture (RFR Block)**:  
@@ -61,7 +61,7 @@ QiVC-Net also features a **Reversal Fusion Residual (RFR)** block that captures 
 
 ## **Usage of QiVConv in Practice**
 
-The **QiVConv layer** can be used as a drop-in replacement for standard 1D convolutional layers in any TensorFlow/Keras model. It introduces no additional parameters, only learnable mean and standard deviation per weight (via the reparameterization trick), and supports end-to-end training with standard optimizers. It is particularly well-suited for **time-series and biosignal tasks** where uncertainty quantification, robustness to noise, and temporal symmetry are critical.
+The **QiVConv layer** can be used as a drop-in replacement for standard convolutional layers in any TensorFlow/Keras model. It introduces no additional parameters, only learnable mean and standard deviation per weight (via the reparameterization trick), and supports end-to-end training with standard optimizers. It is particularly well-suited for **time-series and biosignal tasks** where uncertainty quantification, robustness to noise, and temporal symmetry are critical.
 
 ---
 
