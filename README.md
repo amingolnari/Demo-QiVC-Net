@@ -28,7 +28,7 @@
 
 **QiVC-Net** introduces the **Quantum-inspired Variational Convolution (QiVC)** framework, a novel learning paradigm that integrates probabilistic inference, variational optimization, and quantum-inspired transformations into convolutional neural networks.
 
-The core innovation is the **Quantum-inspired Rotated Ensemble (QiRE)** mechanism, which applies differentiable, low-dimensional subspace rotations to convolutional weights, inspired by unitary evolution in quantum systems. This enables **structured, geometry-preserving uncertainty modeling** without adding learnable parameters. The framework is instantiated for **phonocardiogram (PCG) signal classification**, a challenging task marked by noise, inter-subject variability, and class imbalance.
+The core innovation is the **Quantum-inspired Rotated Ensemble (QiRE)** mechanism, which applies differentiable, low-dimensional subspace rotations to convolutional weights, inspired by unitary evolution in quantum systems. This enables **structured, geometry-preserving uncertainty modeling**. The framework is instantiated for **phonocardiogram (PCG) signal classification**, a challenging task marked by noise, inter-subject variability, and class imbalance.
 
 QiVC-Net also features a **Reversal Fusion Residual (RFR)** block that captures bidirectional temporal dynamics by processing both forward and time-reversed inputs, enhancing robustness and temporal coherence.
 
@@ -38,7 +38,7 @@ QiVC-Net also features a **Reversal Fusion Residual (RFR)** block that captures 
 
 1. **QiVConv Layer**:  
    - A probabilistic convolutional layer that performs norm-preserving subspace rotations of kernel weights.
-   - Enables expressive uncertainty-aware representations while maintaining parameter efficiency.
+   - Enables expressive uncertainty-aware representations.
 
 2. **Quantum-Inspired Rotated Ensemble (QiRE)**:  
    - Injects structured stochasticity via unitary-inspired rotations in a learnable low-dimensional subspace.
@@ -60,7 +60,7 @@ QiVC-Net also features a **Reversal Fusion Residual (RFR)** block that captures 
 
 ## **Usage of QiVConv in Practice**
 
-The **QiVConv layer** can be used as a drop-in replacement for standard convolutional layers in any TensorFlow/Keras model. It introduces no additional parameters, only learnable mean and standard deviation per weight (via the reparameterization trick), and supports end-to-end training with standard optimizers. It is particularly well-suited for **time-series and biosignal tasks** where uncertainty quantification, robustness to noise, and temporal symmetry are critical.
+The **QiVConv layer** can be used as a drop-in replacement for standard convolutional layers in any TensorFlow/Keras model. It introduces structured uncertainty into the convolutional weights by maintaining separate learnable mean (`mu`) and standard deviation (`rho`) parameters for each weight. It supports end-to-end training with standard optimizers. It is particularly well-suited for **challenging tasks** where uncertainty quantification, robustness to noise, and temporal symmetry are critical.
 
 ---
 
