@@ -1,11 +1,10 @@
 # [**QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification**](https://arxiv.org/abs/2506.xxxxx)  
 
-**Preprint:** [arXiv:2506.xxxxx](https://arxiv.org/abs/2506.xxxxx)  
 
 ---
 
 **Amin Golnari**, **Jamileh Yousefi**, **Reza Moheimani**, **Saeid Sanei**. **"QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification"**  
-Preprint: [https://arxiv.org/abs/2506.xxxxx](https://arxiv.org/abs/2506.xxxxx)
+
 
 **Amin Golnari**<sup>a</sup>, **Jamileh Yousefi**<sup>b</sup>, **Reza Moheimani**<sup>a</sup>, **Saeid Sanei**<sup>c,d</sup>  
 <sup>a</sup> Faculty of Computer Science, Chemnitz University of Technology, Chemnitz, Germany  
@@ -13,7 +12,7 @@ Preprint: [https://arxiv.org/abs/2506.xxxxx](https://arxiv.org/abs/2506.xxxxx)
 <sup>c</sup> Department of Electrical and Electronic Engineering, Imperial College London, London, UK  
 <sup>d</sup> College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam  
 
-**Link to the preprint version:** [Click here](https://arxiv.org/abs/2506.xxxxx)
+**Link to the preprint version:** [arXiv:2511.05730](https://arxiv.org/abs/2511.05730)
 
 **Run this implementation on Google Colab:**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amingolnari/Demo-QiVC-Net/blob/main/QiVC-Net.ipynb)
@@ -71,7 +70,7 @@ If our work is helpful to you, please kindly cite our paper as:
 @article{golnari2025qivc,
   title={QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification},
   author={Golnari, Amin and Yousefi, Jamileh and Moheimani, Reza and Sanei, Saeid},
-  journal={arXiv preprint arXiv:2506.xxxxx},
+  journal={arXiv preprint arXiv:2511.05730},
   year={2025}
 }
 ```
