@@ -1,4 +1,4 @@
-# [**QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification**](https://arxiv.org/abs/2506.xxxxx)  
+# [**QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification**](https://arxiv.org/abs/2511.05730)  
 
 
 ---
