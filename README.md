@@ -69,7 +69,7 @@ The **QiVConv layer** can be used as a drop-in replacement for standard convolut
 If our work is helpful to you, please kindly cite our paper as:
 
 ```bibtex
-@article{golnari2025qivc},
+@article{golnari2025qivc,
   title={QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification},
   author={Golnari, Amin and Yousefi, Jamileh and Moheimani, Reza and Sanei, Saeid},
   journal={Neural Networks},
