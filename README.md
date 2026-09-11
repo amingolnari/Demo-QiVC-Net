@@ -12,6 +12,8 @@
 <sup>c</sup> Department of Electrical and Electronic Engineering, Imperial College London, London, UK  
 <sup>d</sup> College of Engineering and Computer Science, VinUniversity, Hanoi, Vietnam  
 
+**Link to the published version:** [Neural Networks: 2026.109627](https://doi.org/10.1016/j.neunet.2026.109627)
+
 **Link to the preprint version:** [arXiv:2511.05730](https://arxiv.org/abs/2511.05730)
 
 **Run this implementation on Google Colab:**  
@@ -70,7 +72,8 @@ If our work is helpful to you, please kindly cite our paper as:
 @article{golnari2025qivc,
   title={QiVC-Net: Quantum-Inspired Variational Convolutional Network, with Application to Biosignal Classification},
   author={Golnari, Amin and Yousefi, Jamileh and Moheimani, Reza and Sanei, Saeid},
-  journal={arXiv preprint arXiv:2511.05730},
-  year={2025}
+  journal={Neural Networks},
+  doi={https://doi.org/10.1016/j.neunet.2026.109627},
+  year={2026}
 }
 ```
